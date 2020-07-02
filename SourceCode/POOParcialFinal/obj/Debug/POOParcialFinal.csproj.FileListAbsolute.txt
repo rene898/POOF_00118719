@@ -1,0 +1,9 @@
+C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.csprojAssemblyReference.cache
+C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.Properties.Resources.resources
+C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.csproj.GenerateResource.cache
+C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.csproj.CoreCompileInputs.cache
+C:\Users\usuario\RiderProjects\POOParcialFinal\bin\Debug\POOParcialFinal.exe.config
+C:\Users\usuario\RiderProjects\POOParcialFinal\bin\Debug\POOParcialFinal.exe
+C:\Users\usuario\RiderProjects\POOParcialFinal\bin\Debug\POOParcialFinal.pdb
+C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.exe
+C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.pdb
