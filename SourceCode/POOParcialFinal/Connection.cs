@@ -1,4 +1,4 @@
-﻿ /* using System.Data;
+﻿using System.Data;
 using Npgsql;
 
 namespace POOParcialFinal
@@ -6,7 +6,7 @@ namespace POOParcialFinal
     public static class Connection
     {
         public static string CadenaConexion = 
-            "Server=127.0.0.1;Port=5432;User Id=postgres;Password=;Database=;";
+            "Server=127.0.0.1;Port=5432;User Id=postgres;Password=TheSpace;Database=ParcialFinalPOO;";
         
         public static DataTable realizarConsulta(string sql)
         {
@@ -32,4 +32,4 @@ namespace POOParcialFinal
         }
         
     }
-}*/
+}

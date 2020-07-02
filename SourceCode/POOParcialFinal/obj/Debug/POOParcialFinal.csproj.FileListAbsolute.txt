@@ -7,3 +7,11 @@ C:\Users\usuario\RiderProjects\POOParcialFinal\bin\Debug\POOParcialFinal.exe
 C:\Users\usuario\RiderProjects\POOParcialFinal\bin\Debug\POOParcialFinal.pdb
 C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.exe
 C:\Users\usuario\RiderProjects\POOParcialFinal\obj\Debug\POOParcialFinal.pdb
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.Login.resources
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.Properties.Resources.resources
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.Register.resources
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.exe
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.pdb
