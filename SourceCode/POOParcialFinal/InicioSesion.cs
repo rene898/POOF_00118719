@@ -14,7 +14,7 @@ namespace POOParcialFinal
         {
             try
             {
-                throw new NotImplementedException();
+                string cmd = string.Format("SELECT FROM USUARIO WHERE   ");
             }
             catch (Exception exception)
             {
