@@ -10,9 +10,6 @@ namespace POOParcialFinal
             InitializeComponent();
         }
 
-        private void Hora_Tick(object sender, EventArgs e)
-        {
-            label1.Text = DateTime.Now.ToLongTimeString();
-        }
+      
     }
 }

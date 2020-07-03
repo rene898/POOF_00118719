@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.Windows.Forms;
 
 namespace POOParcialFinal
@@ -14,11 +16,25 @@ namespace POOParcialFinal
         {
             try
             {
-                string cmd = string.Format("SELECT FROM USUARIO WHERE   ");
+                string sql = "SELECT FROM USUARIO WHERE Nombre = @Nombre AND Contraseña = @Contraseña ";
+
+                DataTable dt = Connection.realizarAccion(sql);
+                
+                List<userDAO> lista = new List<userDAO>();
+                foreach (DataRow fila in dt.Rows)
+                {
+                    user u = new user();
+                    u.username = fila[0].ToString();
+                    u.password = fila[1].ToString();
+                        lista.Add(u);
+                }
+                return lista;
             }
-            catch (Exception exception)
+            
+        }
+            catch (Exception ex)
             {
-                Console.WriteLine(exception);
+                Console.WriteLine(ex);
                 throw;
             }
         }

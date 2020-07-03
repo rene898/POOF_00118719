@@ -68,6 +68,8 @@
         <Compile Include="InicioSesion.Designer.cs">
           <DependentUpon>InicioSesion.cs</DependentUpon>
         </Compile>
+        <Compile Include="user.cs" />
+        <Compile Include="userDAO.cs" />
         <Compile Include="Vigilante.cs">
           <SubType>Form</SubType>
         </Compile>
