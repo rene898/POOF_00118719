@@ -15,3 +15,5 @@ C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\D
 C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.exe
 C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.pdb
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.Form1.resources
+C:\Users\usuario\Documents\GitHub\POOF_00118719\SourceCode\POOParcialFinal\obj\Debug\POOParcialFinal.Vigilante.resources

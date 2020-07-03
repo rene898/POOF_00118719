@@ -1,0 +1,25 @@
+CREATE TABLE DEPARTAMENTO(
+	IdDepartamento SERIAL PRIMARY KEY,
+	Nombre VARCHAR(35),
+	Ubicacion VARCHAR(80)
+);
+CREATE TABLE USUARIO(
+	IdUsuario SERIAL PRIMARY KEY,
+	IdDepartamento INT,
+	Contraseña VARCHAR(24),
+	Nombre VARCHAR(40),
+	Apellidos VARCHAR(40),
+	DUI INT,
+	FechaNacimiento DATE,
+	CONSTRAINT FK_IdDepartamento
+	FOREIGN KEY (IdDepartamento) REFERENCES DEPARTAMENTO(IdDepartamento)
+);
+CREATE TABLE REGISTRO(
+	IdRegistro SERIAL PRIMARY KEY,
+	IdUsuario INT,
+	Entrada BOOLEAN,
+	FechaHora TIMESTAMP WITHOUT TIME ZONE,
+	Temperatura double precision,
+	CONSTRAINT FK_IdUsuario
+	FOREIGN KEY (IdUsuario) REFERENCES USUARIO(IdUsuario)
+);

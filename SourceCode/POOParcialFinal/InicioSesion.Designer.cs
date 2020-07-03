@@ -2,7 +2,7 @@
 
 namespace POOParcialFinal
 {
-    partial class Register
+    partial class InicioSesion
     {
         /// <summary>
         /// Required designer variable.
@@ -33,20 +33,18 @@ namespace POOParcialFinal
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.Location = new System.Drawing.Point(12, 22);
+            this.label1.Location = new System.Drawing.Point(12, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 57);
+            this.label1.Size = new System.Drawing.Size(172, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -54,34 +52,20 @@ namespace POOParcialFinal
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label2.Location = new System.Drawing.Point(12, 83);
+            this.label2.Location = new System.Drawing.Point(12, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 54);
+            this.label2.Size = new System.Drawing.Size(172, 48);
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(247, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(247, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 20);
-            this.textBox2.TabIndex = 3;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button1.Location = new System.Drawing.Point(51, 165);
+            this.button1.Location = new System.Drawing.Point(115, 228);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 67);
-            this.button1.TabIndex = 4;
+            this.button1.Size = new System.Drawing.Size(160, 66);
+            this.button1.TabIndex = 2;
             this.button1.Text = "Iniciar Sesion";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -89,36 +73,41 @@ namespace POOParcialFinal
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button2.Location = new System.Drawing.Point(245, 165);
+            this.button2.Location = new System.Drawing.Point(318, 228);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(161, 67);
-            this.button2.TabIndex = 5;
+            this.button2.Size = new System.Drawing.Size(160, 66);
+            this.button2.TabIndex = 3;
             this.button2.Text = "Salir";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pictureBox1
+            // textBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(458, 40);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 192);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.textBox1.Location = new System.Drawing.Point(279, 65);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(186, 20);
+            this.textBox1.TabIndex = 4;
             // 
-            // Register
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(279, 135);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(186, 20);
+            this.textBox2.TabIndex = 5;
+            // 
+            // InicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 295);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(524, 416);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Register";
-            this.Text = "Inicio Sesion";
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
+            this.Name = "InicioSesion";
+            this.Text = "InicioSesion";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -127,7 +116,6 @@ namespace POOParcialFinal
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
 

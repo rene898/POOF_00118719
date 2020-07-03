@@ -1,42 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Windows.Forms;
 
 namespace POOParcialFinal
 {
-    public partial class Register : Form
+    public partial class InicioSesion : Form
     {
-        public Register()
+        public InicioSesion()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+            string expr;
+            if (expr)
             {
-                string sql = "SELECT FROM USUARIO WHERE Nombre = @Nombre AND Contraseña = @Contraseña ";
-
-                DataTable dt = Connection.realizarAccion(sql);
-                
-                List<userDAO> lista = new List<userDAO>();
-                foreach (DataRow fila in dt.Rows)
-                {
-                    user u = new user();
-                    u.username = fila[0].ToString();
-                    u.password = fila[1].ToString();
-                        lista.Add(u);
-                }
-                return lista;
+                Form1 admin = new Form1();
+                admin.Show();
             }
-            
+            else if (expr)
+            {
+                Vigilante vig = new Vigilante();
+                vig.Show();
+            }
+            else
+            {
+                Login em = new Login();
+                em.Show();
+            }
         }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-                throw;
-            }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
+
 }
+
